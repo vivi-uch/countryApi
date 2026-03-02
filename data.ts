@@ -15,17 +15,32 @@ export const countryList = [
         },
       },
     },
-    currencies: {
-      VND: {
-        name: "Vietnamese đồng",
-        symbol: "₫",
-      },
-    },
     cca3: "VNM",
     capital: ["Hanoi"],
     region: "Asia",
     population: 101343800,
+    tld: [".be"],
+    subregion: "Western Europe",
+    currencies: {
+      EUR: {
+        name: "euro",
+        symbol: "€",
+      },
+    },
+    languages: {
+      deu: "German",
+      fra: "French",
+      nld: "Dutch",
+    },
+    borders: [
+      "FRA",
+      "DEU",
+      "LUX",
+      "NLD"
+    ],
+
   },
+
   {
     flags: {
       png: "https://flagcdn.com/w320/gf.png",
